@@ -29,7 +29,12 @@ public static void insertionSort(int array[]) {
             arr[i] = smallerNumber;  
         }  
     }
+<<<<<<< HEAD
     public static void sort(int[] array){
         selectionSort(array);
+=======
+    public static void sort(int[] array ){
+        insertionSort(array);
+>>>>>>> 32113c86ae1f6fafbb35774bd416b083f7c1f0d1
     }
 }
