@@ -12,7 +12,8 @@ public static void insertionSort(int array[]) {
             array [i+1] = array [i];  
             i--;  
         }  
-        array[i+1] = key;  
+        array[i+1] = key;
+    }
     }  
     public static void selectionSort(int[] arr){  
         for (int i = 0; i < arr.length - 1; i++)  
@@ -27,5 +28,8 @@ public static void insertionSort(int array[]) {
             arr[index] = arr[i];  
             arr[i] = smallerNumber;  
         }  
-}
+    }
+    public static void sort(int[] array){
+        selectionSort(array);
+    }
 }
