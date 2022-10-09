@@ -29,7 +29,7 @@ public static void insertionSort(int array[]) {
             arr[i] = smallerNumber;  
         }  
     }
-    public static void sort(int[] array){
+    public static void sort(int[] array ){
         insertionSort(array);
     }
 }
