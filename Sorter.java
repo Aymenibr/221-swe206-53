@@ -30,6 +30,6 @@ public static void insertionSort(int array[]) {
         }  
     }
     public static void sort(int[] array){
-        insertionSort(array);
+        selectionSort(array);
     }
 }
