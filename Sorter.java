@@ -3,7 +3,6 @@ public class Sorter{
         System.out.println("hello world");
     }
 
-<<<<<<< HEAD
 public static void insertionSort(int array[]) {  
     int n = array.length;  
     for (int j = 1; j < n; j++) {  
@@ -15,7 +14,6 @@ public static void insertionSort(int array[]) {
         }  
         array[i+1] = key;  
     }  
-=======
     public static void selectionSort(int[] arr){  
         for (int i = 0; i < arr.length - 1; i++)  
         {  
@@ -29,6 +27,5 @@ public static void insertionSort(int array[]) {
             arr[index] = arr[i];  
             arr[i] = smallerNumber;  
         }  
->>>>>>> b8ecfa8cf51f31cd01733009b73fa47fde298082
 }
 }
